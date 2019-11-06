@@ -1,0 +1,14 @@
+askserver:
+  port: 58888
+  cycle: 15
+  overtime: 60
+
+publisher:
+  host: 192.160.25.102
+  port: 1883
+  clientId: proCorePublisher
+  username: protocolCore
+  password: protocolCore
+  version: 3.1.1
+  willRetain: false
+  topicName: test
